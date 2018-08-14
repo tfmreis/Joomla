@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="3.8.0">
+	<name>Intranet</name>
+	<author>Thiago Reis</author>
+	<creationDate>2018-08-13</creationDate>
+	<copyright>Copyright (C) 2018 TFMREIS. All rights reserved.</copyright>
+	<license>http://www.asssistemas.com.br</license>
+	<authorEmail>tfmreis@gmail.com</authorEmail>
+	<authorUrl>https://github.com/tfmreis</authorUrl>
+	<version>3.8.0</version>
+	<description>Login para intranet.</description>
+	<files>
+		<filename module="mod_intranet">mod_intranet.php</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+	</files>
+	<params>
+
+		<param name="action" type="text" size="25" default="" label="Caminho do action" description="Caminho do action do Formulario" />
+		<param name="usuario" type="text" size="25" label="Nome do campo do usuário" description="Nome do campo do usuário" />
+		<param name="senha" type="text" size="25" label="Nome do campo de senha" description="Nome do campo de senha" />
+
+	</params>
+</install>
